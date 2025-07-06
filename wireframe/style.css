@@ -1,0 +1,603 @@
+@font-face {
+    font-family:Medium ;
+    src: url(font/Inter-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+    font-family:mrdafoe ;
+    src: url(font/MrDafoe-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* About me Start */
+.About-image img{
+    width: 550px ;
+    height: 825px;
+}
+.About{
+    padding-top: 80px;
+}
+.About-Me{
+    padding-top: 200px;
+    margin-left: 80px;
+}
+.About-Me h4{
+    font-family:Medium ;
+    font-size: 24px;
+}
+.About-Me h1{
+    font-family:Medium ;
+    font-size: 50px;
+    padding-bottom:30px;
+    padding-top: 17px;
+}
+.About-Me a{
+    text-decoration: none;
+    background-color: #CFB02C;
+    color: #ffff;
+    padding: 18px 50px 18px 50px;
+    border-radius: 34px 0px 34px 0px;
+}
+#About-p{
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+/* About me End */
+
+/* Nutritionist & Naturopath Start */
+.Nutritionist-image{
+    background-color: #000000;
+    border-radius: 80px 0px 0px 0px;
+    padding-top: 570px;
+    padding-bottom: 130px;
+    margin-top: 360px;
+    margin-bottom: 200px;
+}
+.Nutritionist-Naturopath p{
+    padding: 15px 0px 30px 0px ;
+    color: #ffff;
+}
+.Nutritionist-Naturopath{
+    text-align: center;
+    color: #ffff;
+    font-family:Medium ;
+}
+.Nutritionist-Naturopath a{
+    text-decoration: none;
+    background-color: #ffff;
+    border-radius: 35px 0px 35px 0px;
+    padding: 15px 30px 15px 30px;
+    color: #000000;
+}
+.fa-solid{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.Nutritionist-image::before{
+    content: "";
+    background-image: url(image\ \(4\).png);
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1180px;
+    height: 693px;
+    top: 170%;
+    left: 160px;
+}
+/* Nutritionist & Naturopath End */
+.Lorem-text{
+    margin-left: 180px;
+}
+.Lorem-text p{
+    padding-bottom: 40px;
+    font-size: 18px;
+    line-height: 1.8;
+}
+.Lorem-text a{
+    text-decoration: none;
+    background-color: #CFB02C;
+    border-radius: 35px 0px 35px 0px;
+    padding: 15px 30px 15px 30px;
+    color: #ffff;
+}
+.Saundra-Miers-img{
+    display: flex;
+    padding-top: 150px;
+}
+.Saundra-Miers-img #image{
+    margin-right: 10px;
+    width: 380px;
+    height: 352px;
+}
+.Saundra-Miers-img #image6{
+    width: 380px;
+    height: 352px;
+}
+ /* Complementary services start */
+.services h1{
+    font-family:Medium ;
+}
+.services a{
+    text-decoration: none;
+    color: white;
+    background-color: #F2795A;
+    padding: 11px 23px 11px 23px;
+}
+#nisl{
+    padding-bottom: 20px;
+}
+/* Complementary services End */
+
+/* Image with Text Start */
+.image-with-text{
+    padding-top: 50px;
+}
+.image-with-text img{
+    width: 700px;
+    height: 531px;
+}
+.image-with-text::after{
+    content: "";
+    position: absolute;
+    background-color: #F2795A;
+    width: 823px;
+    height: 823px;
+    left: 22%;
+    top: 620%;
+    border-radius: 100%;
+    z-index: -1;
+}
+.offer-text::before{
+    content: "";
+    position: absolute;
+    background-color: white;
+    width: 700px;
+    height: 281px;
+    left: 44%;
+    top: 670%;
+}
+.offer-text p{
+    position: absolute;
+    left: 47%;
+    top: 680%;
+    font-family:Medium;
+    font-size: 40px;
+    line-height: 1.3;
+}
+/* Image with Text End */
+
+/* Lorem ipsum start */
+.Lorem-ipsum{
+    padding-bottom: 130px;
+    padding-top: 7%;
+}
+#Lorem{
+    text-align: center;
+    padding-top: 35%;
+    padding-bottom: 5%;
+}
+.Lorem-Ipsum1{
+    background-color: #2C5CAA;
+    border-radius: 0px 0px 0px 40px;
+}
+.Lorem-Ipsum1 h6{
+    margin-bottom: 0px;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    color: white;
+}
+.Lorem-Ipsum1 p{
+    color: white;
+    padding: 0px 10px 40px 10px;
+}
+.Lorem-icon{
+    padding-top: 65px;
+    padding-bottom: 65px;
+    background-color: #D9D9D9;
+    border-radius: 0px 30px 0px 0px;
+}
+.Lorem-img1{
+    bottom: -710%;
+    left: 13%;
+    border-radius: 100px;
+    position: absolute;
+}
+.Lorem-img1 img{
+    width: 120px;
+    height: 120px;
+}
+.Lorem-img2{
+    bottom: -710%;
+    left: 35%;
+    border-radius: 100px;
+    position: absolute;
+}
+.Lorem-img2 img{
+    width: 120px;
+    height: 120px;
+}
+.Lorem-img3{
+    bottom: -710%;
+    left: 56%;
+    border-radius: 100px;
+    position: absolute;
+}
+.Lorem-img3 img{
+    width: 120px;
+    height: 120px;
+}
+.Lorem-img4{
+    bottom: -710%;
+    left: 78%;
+    border-radius: 100px;
+    position: absolute;
+}
+.Lorem-img4 img{
+    width: 120px;
+    height: 120px;
+}
+/* Lorem ipsum End */
+
+/* Traveling Start */
+.Traveling-planning{
+    position: relative;
+}
+.Traveling h2{
+    font-size: 80px;
+    font-weight: 700;
+    color: #F9CEBD;
+}
+#planning{
+    font-family:mrdafoe ;
+    font-size: 60px;
+    padding-left: 29%;
+}
+.Traveling p{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.Traveling a{
+    text-decoration: none;
+    color: white;
+    background-color: #F9CEBD;
+    padding: 11px 23px 11px 23px;
+    border-radius: 35px;
+}
+.img-text img{
+    float: left;
+    position: relative;
+    left: 25%;
+    width: 65%;
+}
+.img-text::after{
+    content: "";
+    position: absolute;
+    width: 35%;
+    height: 60%;
+    background-color: #F9CEBD;
+    left: 61%;
+    top: 23%;
+    z-index: -1;
+}
+.img-text::before{
+    content: "";
+    position: absolute;
+    width: 25%;
+    height: 50%;
+    background-image: url(image\ \(8\).png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 54%;
+    top: 64%;
+    z-index: 1;
+}
+.text-hiking p {
+    position: absolute;
+    z-index: 1;
+    font-family: mrdafoe;
+    right: 9%;
+    font-size: 48px;
+    padding-top: 20px;
+}
+/* Traveling End */
+
+/* GO BIG OR STAY HOME Start */
+.go-big{
+    position: relative;
+    background-image: url(image\ \(10\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 150px;
+    margin-top: 100px;
+}
+.go-big::before{
+    content: "";
+    position: absolute;
+    background-color: #000000;
+    top: 0;
+    left: 0;
+}
+.go-big h1{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    padding-bottom: 40px;
+}
+.go-big p{
+    text-align: center;
+    color: white;
+}
+/* GO BIG OR STAY HOME End */
+@media (max-width:1280px) {
+    .Nutritionist-image::before {
+    top: 130%;
+    left: 78px;
+ }
+ .offer-text::before {
+    top: 519%;
+ }
+ .image-with-text::after {
+    top: 483%;
+ }
+ .offer-text p {
+    top: 523%;
+ }
+ .image-with-text::after {
+    top: 484%;
+ }
+ .Lorem-img1 {
+    bottom: -524%;
+    left: 11%;
+ }
+ .Lorem-img2 {
+    bottom: -524%;
+    left: 34%;
+ }
+ .Lorem-img3 {
+    bottom: -524%;
+    left: 56%;
+ }
+ .Lorem-img4 {
+    bottom: -524%;
+    left: 79%;
+ }
+ .text-hiking p {
+    right: 9%;
+ }
+    .img-text::before {
+        height: 45%;
+        left: 53%;
+    }
+    #Lorem {
+    text-align: center;
+    padding-top: 41%;
+    padding-bottom: 5%;
+}
+}
+
+@media (max-width:1024px){
+    .About-Me {
+    padding-top: 150px;
+ }
+    .Nutritionist-image::before {
+    width: 900px;
+    height: 530px;
+    top: 146%;
+    left: 97px;
+ }
+ .Nutritionist-image {
+    padding-top: 400px;
+ }
+ .Nutritionist-Naturopath {
+    margin-left: 80px;
+ }
+ .Lorem-text{
+    margin-left: 130px;
+ }
+ .Lorem-text p {
+    line-height: 1.5;
+ }
+ .Saundra-Miers-text h1{
+    font-size: 33px;
+ }
+ .Saundra-Miers-img #image {
+    width: 300px;
+    height: 300px;
+ }
+  .Saundra-Miers-img #image6 {
+    width: 300px;
+    height: 300px;
+ }
+ .image-with-text img {
+    width: 550px;
+    height: 400px;
+ }
+ .image-with-text::after {
+        top: 573%;
+        width: 670px;
+        height: 670px;
+    }
+    .offer-text::before {
+        top: 606%;
+        left: 42%;
+        width: 530px;
+        height: 260px;
+    }
+    .offer-text p{
+        top: 616%;
+        font-size: 35px;
+        padding: 0px;
+        line-height: 1.2;
+    }
+    .Lorem-img1 {
+        bottom: -627%;
+        left: 8%;
+    }
+    .Lorem-img1 img{
+    width: 110px;
+    height: 110px;
+    }
+    .Lorem-img2 img{
+    width: 110px;
+    height: 110px;
+    }
+    .Lorem-img2 {
+    bottom: -627%;
+    left: 32%;
+    }
+    .Lorem-img3 img {
+     width: 110px;
+     height: 110px;
+    }
+    .Lorem-img3 {
+        bottom: -627%;
+        left: 56%;
+    }
+    .Lorem-img4 img{
+     width: 110px;
+     height: 110px;
+   }
+    .Lorem-img4 {
+    bottom: -627%;
+    left: 80%;
+    }
+  #planning {
+    font-size: 58px;
+    }
+    .text-hiking p {
+        right: 12%;
+        font-size: 40px;
+    }
+    .img-text::before {
+        left: 57%;
+        bottom: -783%;
+    }
+    .img-text::after {
+        left: 60%;
+        bottom: -765%;
+    }
+}
+@media (max-width:768px){
+        .About-Me {
+        padding-top: 110px;
+        margin-left: 0px;
+    }
+        .Nutritionist-Naturopath {
+        margin-left: 0px;
+    }
+        .Nutritionist-image::before {
+        width: 634px;
+        height: 373px;
+        top: 146%;
+        left: 97px;
+    }
+        .Nutritionist-image::before { 
+        top: 141%;
+    }
+    .Nutritionist-image {
+        padding-top: 350px;
+        margin-top: 226px;
+        margin-bottom: 150px;
+    }
+   .image-lorem img{
+    width: 154%;
+   }
+    .Lorem-text {
+        margin-left: 120px;
+    }
+    .Saundra-Miers-img {
+    display: flex;
+    padding-top: 70px;
+   }
+    .Saundra-Miers-img #image {
+        width: 380px;
+    }
+    .Saundra-Miers-img #image6 {
+        width: 380px;
+    }
+    .Saundra-Miers-img #image6 {
+        width: 380px;
+        height: 300px;
+    }
+    .Lorem-img1 {
+        bottom: -354%;
+        left: 18%;
+    }
+    .Lorem-img2 {
+        bottom: -354%;
+        left: 67%;
+    }
+    .Lorem-img3 {
+        bottom: -392%;
+        left: 19%;
+    }
+    .Lorem-img4 {
+        bottom: -393%;
+        left: 66%;
+    }
+    .Lorem-ipsum {
+    padding-bottom: 90px;
+    padding-top: 7%;
+    }
+    .Traveling h2 {
+    font-size: 56px;
+    }
+    #planning {
+        font-size: 42px;
+    }
+    .img-text img {
+    width: 73%;
+    left: 18%;
+    }
+        .text-hiking p {
+        right: 12%;
+        font-size: 33px;
+    }
+        .img-text::before {
+        left: 49%;
+        top: 48%;
+        width: 200px;
+         height: 174px;
+    }
+        .img-text::after {
+        height: 43%;
+        width: 40%;
+        left: 57%;
+        top: 20%;
+    }
+    .image-with-text img {
+        width: 380px;
+        height: 276px;
+        left: 16%;
+    }
+    .image-with-text::after {
+        top: 374%;
+        left: 16%;
+        width: 560px;
+        height: 560px;
+    }
+     .offer-text::before {
+        top: 387%;
+        left: 39%;
+        width: 435px;
+        height: 200px;
+    }
+    .offer-text p {
+        top: 392%;
+        font-size: 27px;
+        padding: 0px;
+        line-height: 1.2;
+        left: 44%;
+    }
+    #Lorem {
+    padding-top: 49%;
+   }
+}
