@@ -1,0 +1,408 @@
+@font-face {
+    font-family: Bold;
+    src: url(font/LibreBaskerville-Bold.ttf);
+}
+@font-face {
+    font-family: Regular;
+    src: url(font/LibreBaskerville-Regular.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.about{
+    padding: 100px 0px 0px 0px;
+}
+.about h2{
+    font-family: Regular;
+    padding-top: 10px;
+    font-weight: 600;
+}
+#About-Company{
+    color: rgb(223, 62, 62);
+}
+#Small-Business{
+    color: rgb(223, 62, 62);
+    font-family: Regular;
+}
+#Call-To{
+    color: rgb(223, 62, 62);
+    padding: 30px 0px 0px 33px;
+    font-size: 21px;
+    margin-bottom: 0px;
+}
+#number{
+    padding: 0px 0px 0px 73px;
+    font-size: 25px;
+    font-weight: 700;
+}
+#Lorem-ipsum{
+    padding-bottom: 30px;
+}
+
+.about a{
+    background-color: rgb(151 4 4);
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 40px 8px 40px;
+    border-radius: 8px;
+    transition: 0.5s;
+    font-weight: 600;
+}
+.about a:hover{
+    color: wheat;
+}
+/* .Satisfied-Clients{
+    position: relative;
+} */
+.Satisfied-Clients-img{
+    position: relative;
+     margin-top: 60px;
+}
+.Satisfied-Clients-img::before{
+    content: "";
+    position: absolute;
+    background-image: url(hero-photo-lincoln\ 1\ 1.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width : calc(10px + 650px); */
+    height: 490px;
+    width: 670px;
+    /* height: calc(200px + 942px); */
+    top: 0;
+    right:0;
+}
+ /* .Satisfied-Clients::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    border-radius: 15px;
+    width: 216px;
+    height: 135px;
+    bottom: -120px;
+    left: -100px;
+}  */
+#Satisfied{
+    position: absolute;
+    bottom: -120px;
+    left: -80px;
+}
+#plus{
+    color: rgb(147 48 48);
+    font-size: 27px;
+    padding-left: 40px;
+}
+#Satisfied h4{
+    color: #ffff;
+}
+#Satisfied p{
+    color:#C0C0C0;
+    padding-left: 9px;
+    font-size: 19px;
+}
+.Satisfied-Clients img{
+    display: none;
+}
+/* Breakpoint  Start */
+@media (min-width:1920px) {
+    .Satisfied-Clients-img::before{
+    width: calc(50px + 950px);
+    height: 490px;
+    }
+}
+@media (max-width:1280px) {
+    .Satisfied-Clients-img::before {
+   width: calc(30px + 600px);
+    height: 460px;
+    }
+    .Satisfied-Clients::before {
+    bottom: -83px; 
+    }
+    #Satisfied {
+    bottom: -82px;
+   }
+}
+@media (max-width:1024px) {
+    .Satisfied-Clients::before {
+    bottom: -100px; 
+    left: -115px;
+    }
+     #Satisfied {
+        bottom: -100px;
+        left: -110px;
+        margin-left: 15px;
+    }
+    .Satisfied-Clients-img::before {
+        height: 494px;
+        width: 517px;
+        background-position: center;
+    }
+}
+/* Breakpoint 1024px End */
+@media (max-width:912px){
+        .Satisfied-Clients-img::before {
+        height: 484px;
+        width: 442px;
+        }
+            .Satisfied-Clients::before {
+        bottom: -83px;
+        left: -97px;
+    }
+        #Satisfied {
+        bottom: -79px;
+        left: -90px;
+    }
+}
+/* Breakpoint 900px Start */
+@media (max-width:900px){
+    .Satisfied-Clients-img::before {
+        width: 420px;
+    }
+    .about h2 {
+    font-size: 20px;
+  }
+  #Lorem-ipsum {
+    padding-bottom: 10px;
+  }
+  .Satisfied-Clients::before {
+        bottom: -121px;
+        left: -103px;
+    }
+        #Satisfied {
+        bottom: -116px;
+        left: -102px;
+    }
+}
+  @media (max-width: 768px) {
+    .Satisfied-Clients-img::before {
+        height: 400px;
+        width: 50%;
+    }
+    .Satisfied-Clients::before {
+        bottom: -110px;
+        left: 280px;
+        width: 180px;
+    }
+    .about h2 {
+    font-size: 23px;
+    }
+    .about a {
+    padding: 8px 20px 8px 20px;
+    font-size: 14px;
+    }
+    #Lorem-ipsum {
+    padding-bottom: 20px;
+    font-size: 13px;
+     }
+     #Call-To {
+    padding: 30px 0px 0px 20px;
+    font-size: 17px;
+    }
+    #number {
+    padding: 0px 0px 0px 50px;
+    font-size: 21px;
+   }
+   .Satisfied-Clients::before {
+        bottom: -63px;
+        left: -99px;
+        width: 161px;
+        height: 115px;
+    }
+    #Satisfied {
+        bottom: -81px;
+    }
+       #plus {
+        font-size: 24px;
+        padding-left: 28px;
+    }
+        #Satisfied h4 {
+        font-size: 18px;
+    }
+         #Satisfied p {
+        padding-left: 10px;
+        font-size: 14px;
+    }
+       #Satisfied {
+        bottom: -64px;
+        left: -100px;
+    }
+}
+/* Breakpoint 768px End */
+/* Breakpoint 767px Start */
+@media (max-width:767px){
+    .Satisfied-Clients img{
+    display: block;
+    }
+    .Satisfied-Clients-img::before{
+        display: none;
+        bottom: -38px;
+        left: -75px;
+        width: 180px;
+        height: 115px;
+    }
+        #Satisfied {
+        bottom: -36px;
+        left: -69px;
+    }
+        #Satisfied h4 {
+        font-size: 21px;
+    }
+        #Satisfied p {
+        font-size: 16px;
+    }
+        .Satisfied-Clients::before {
+        left: -70px;
+        bottom: -38px;
+        width: 187px;
+        height: 130px;
+    }
+        #plus {
+        font-size: 29px;
+    }
+        .about a {
+        padding: 8px 40px 8px 40px;
+    }
+        #Call-To {
+        padding: 30px 0px 0px 40px;
+        font-size: 19px;
+    }
+        #number {
+        padding: 0px 0px 0px 72px;
+        font-size: 23px;
+    }
+     .about a {
+        padding: 8px 20px 8px 20px;
+        font-size: 14px;
+    }
+        #Call-To {
+        padding: 30px 0px 0px 20px;
+        font-size: 17px;
+    }
+    #number {
+        padding: 0px 0px 0px 50px;
+        font-size: 21px;
+    }
+        .about h2 {
+        font-size: 20px;
+    }
+    .about {
+    padding: 34px 0px 0px 0px;
+    }
+}
+/* Breakpoint 767px End */
+/* Breakpoint 699px Start */
+@media (max-width:699px){
+        .Satisfied-Clients::before {
+       bottom: -280px;
+        left: 0px;
+        width: 488px;
+        height: 62%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+        #Satisfied {
+        bottom: -270px;
+        left: 70px;
+    }
+        #plus {
+        font-size: 58px;
+        padding-left: 80px;
+    }
+        #Satisfied h4 {
+        font-size: 50px;
+    }
+        #Satisfied p {
+        font-size: 37px;
+        padding-left: 35px;
+    }
+}
+/* Breakpoint 699px End */
+/* Breakpoint 500px Start */
+@media (max-width:500px){
+    .Satisfied-Clients::before{
+        width: 389px;
+        bottom: -232px;
+        height: 68%;
+    }
+        #Satisfied h4 {
+        font-size: 42px;
+    }
+    #Satisfied p {
+        font-size: 31px;
+    }
+        #Satisfied {
+        bottom: -226px;
+        left: 34px;
+    }
+        #plus{
+        font-size: 40px;
+    }
+}
+/* Breakpoint 500px End */
+/* Breakpoint 400px Start */
+@media (max-width:425px){
+    .Satisfied-Clients::before{
+        width: 350px;
+        bottom: -225px;
+    }
+        #Satisfied h4 {
+        font-size: 38px;
+    }
+        #Satisfied p {
+        font-size: 27px;
+        padding-left: 43px;
+    }
+    #Satisfied {
+        bottom: -217px;
+    }
+}
+/* Breakpoint 400px End */
+/* Breakpoint 375px Start */
+@media (max-width:375px){
+        #Satisfied {
+        bottom: -215px;
+        left: 19px;
+    }
+    #Satisfied h4 {
+        font-size: 34px;
+    }
+        #plus {
+        font-size: 37px;
+    }
+        #Satisfied p {
+        padding-left: 30px;
+    }
+        #Satisfied p {
+        font-size: 26px;
+    }
+        .Satisfied-Clients::before {
+        width: 301px;
+        height: 78%;
+        bottom: -223px;
+    }
+}
+/* Breakpoint 375px End */
+/* Breakpoint 320px Start */
+@media (max-width:320px){
+   .Satisfied-Clients::before {
+        width: 280px;
+        bottom: -173px;
+    }
+        #Satisfied {
+        bottom: -174px;
+        left: 19px;
+    }
+        #plus {
+        font-size: 30px;
+        padding-left: 65px;
+    }
+        #Satisfied h4 {
+        font-size: 30px;
+    }
+        #Satisfied p {
+        font-size: 21px;
+    }
+}
+/* Breakpoint 320px End */
